@@ -8,8 +8,8 @@ RUN yarn build
 
 ENV NODE_ENV production
 
-EXPOSE 9000
+EXPOSE 8080
 
-ENV PORT 9000
+ENV PORT 8080
 
-CMD yarn serve -H 0.0.0.0
+CMD yarn serve -p 8080 -H 0.0.0.0
