@@ -6,6 +6,8 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-pantheon`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
